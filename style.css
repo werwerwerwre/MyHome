@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: linear-gradient(135deg,#4a63e7,#6c5ce7);
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: rgba(0,0,0,0.3);
+}
+
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  padding: 20px;
+}
+
+.post {
+  background: rgba(255,255,255,0.2);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.authBox {
+  width: 300px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.authBox input {
+  margin-bottom: 10px;
+  padding: 10px;
+}
